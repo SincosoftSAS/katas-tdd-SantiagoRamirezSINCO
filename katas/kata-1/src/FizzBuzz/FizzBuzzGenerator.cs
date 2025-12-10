@@ -14,11 +14,11 @@ namespace FizzBuzz
             {
                 result.Add("");
 
-                if (IsMultipleOfFifteen(count))
+                if (IsMultipleOfFifteen(number))
                     result[number - 1] = FizzBuzz;
-                else if (IsMultipleOfThree(count))
+                else if (IsMultipleOfThree(number))
                     result[number - 1] = Fizz;
-                else if (IsMultipleOfFive(count))
+                else if (IsMultipleOfFive(number))
                     result[number - 1] = Buzz;
                 else
                     result[number - 1] = number.ToString();
