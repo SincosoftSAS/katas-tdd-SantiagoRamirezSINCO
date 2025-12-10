@@ -77,6 +77,17 @@ namespace FizzBuzz.Tests
         }
         
         [Fact]
+        public void Generate_WithTen_ReturnsListWithBuzz()
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(10);
+            
+            // Assert
+            result.Should().HaveCount(10);
+            result[9].Should().BeEquivalentTo("Buzz");
+        }
+        
+        [Fact]
         public void Generate_WithFifteen_ReturnsListWithFizzBuzz()
         {
             // Arrange & Act
