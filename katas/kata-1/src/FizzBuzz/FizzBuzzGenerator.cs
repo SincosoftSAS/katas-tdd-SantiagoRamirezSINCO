@@ -8,7 +8,7 @@ namespace FizzBuzz
 
             for (var i = 1; i <= count; i++)
             {
-                result.Add("");
+                result.Add(i.ToString());
             }
 
             result[0] = "1";
