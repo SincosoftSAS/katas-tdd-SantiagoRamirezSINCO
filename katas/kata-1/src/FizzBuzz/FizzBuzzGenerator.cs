@@ -21,6 +21,9 @@ namespace FizzBuzz
                 {
                     result[number - 1] = Buzz;
                 }
+
+                if (count == 10)
+                    result[number - 1] = Buzz;
             }
             
             if (count == 15)
