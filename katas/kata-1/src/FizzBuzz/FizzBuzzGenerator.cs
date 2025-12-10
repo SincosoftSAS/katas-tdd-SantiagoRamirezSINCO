@@ -9,9 +9,7 @@ namespace FizzBuzz
             for (var number = 1; number <= count; number++)
             {
                 result.Add(number.ToString());
-                if (count == 3)
-                    result[number - 1] = "Fizz";
-                if (count == 6)
+                if (count % 3 == 0)
                     result[number - 1] = "Fizz";
             }
             
