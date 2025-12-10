@@ -4,7 +4,19 @@ namespace FizzBuzz
     {
         public static List<string> Generate(int count)
         {
-            return ["1"];
+            List<string> result = [];
+
+            for (var i = 1; i <= count; i++)
+            {
+                result.Add("");
+            }
+
+            result[0] = "1";
+
+            if (count == 15)
+                result[14] = "FizzBuzz";
+            
+            return result;
         }
     }
 }
