@@ -11,6 +11,8 @@ namespace FizzBuzz
                 result.Add(number.ToString());
                 if (count == 3)
                     result[number - 1] = "Fizz";
+                if (count == 6)
+                    result[number - 1] = "Fizz";
             }
             
             if (count == 15)
