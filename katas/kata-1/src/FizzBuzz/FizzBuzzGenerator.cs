@@ -21,13 +21,10 @@ namespace FizzBuzz
                 {
                     result[number - 1] = Buzz;
                 }
+
+                if (count % 3 == 0 && count % 5 == 0)
+                    result[number - 1] = "FizzBuzz";
             }
-            
-            if (count == 15)
-                result[14] = "FizzBuzz";
-            
-            if (count == 30)
-                result[29] = "FizzBuzz";
             
             return result;
         }
