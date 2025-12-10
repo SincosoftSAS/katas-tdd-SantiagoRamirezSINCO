@@ -17,7 +17,6 @@ namespace FizzBuzz.Tests
         }
         
         [Fact]
-<<<<<<< HEAD
         public void Generate_WithTwo_ReturnsListWithOneAndTwo()
         {
             // Arrange & Act
@@ -105,8 +104,6 @@ namespace FizzBuzz.Tests
         }
         
         [Fact]
-=======
->>>>>>> e28ed8faa7700dbd0f99df232351e36c37a03f67
         public void Generate_WithFifteen_ReturnsListWithFizzBuzz()
         {
             // Arrange & Act
