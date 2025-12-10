@@ -140,5 +140,17 @@ namespace FizzBuzz.Tests
             result.Should().HaveCount(number);
             result[number - 1].Should().BeEquivalentTo("FizzBuzz");
         }
+        
+        
+        [Fact]
+        public void Generate_WithFifthteen_ReturnsListWithSecuence()
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(15);
+            
+            // Assert
+            result.Should().HaveCount(15);
+            result.Should().BeEquivalentTo(["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"]);
+        }
     }
 }
