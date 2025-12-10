@@ -49,6 +49,22 @@ namespace FizzBuzz.Tests
             result[5].Should().BeEquivalentTo("Fizz");
         }
         
+        [Theory]
+        [InlineData(9)]
+        [InlineData(72)]
+        [InlineData(33)]
+        [InlineData(18)]
+        [InlineData(12)]
+        public void Generate_WithNumberDivisibleInThree_ReturnsListWithFizz(int number)
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(number);
+            
+            // Assert
+            result.Should().HaveCount(number);
+            result[number - 1].Should().BeEquivalentTo("Fizz");
+        }
+        
         [Fact]
         public void Generate_WithFifteen_ReturnsListWithFizzBuzz()
         {
