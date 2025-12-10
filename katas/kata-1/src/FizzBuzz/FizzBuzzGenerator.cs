@@ -17,11 +17,10 @@ namespace FizzBuzz
                     result[number - 1] = Fizz;
                 }
 
-                result[number - 1] = count switch
+                if (count % 5 == 0)
                 {
-                    5 or 10 => Buzz,
-                    _ => result[number - 1]
-                };
+                    result[number - 1] = Buzz;
+                }
             }
             
             if (count == 15)

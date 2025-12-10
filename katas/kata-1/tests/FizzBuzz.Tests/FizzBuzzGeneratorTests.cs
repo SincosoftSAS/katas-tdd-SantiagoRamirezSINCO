@@ -100,7 +100,7 @@ namespace FizzBuzz.Tests
             
             // Assert
             result.Should().HaveCount(number);
-            result[number - 1].Should().BeEquivalentTo("Fizz");
+            result[number - 1].Should().BeEquivalentTo("Buzz");
         }
         
         [Fact]
