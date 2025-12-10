@@ -6,13 +6,11 @@ namespace FizzBuzz
         {
             List<string> result = [];
 
-            for (var i = 1; i <= count; i++)
+            for (var number = 1; number <= count; number++)
             {
-                result.Add(i.ToString());
+                result.Add(number.ToString());
             }
-
-            result[0] = "1";
-
+            
             if (count == 15)
                 result[14] = "FizzBuzz";
             
