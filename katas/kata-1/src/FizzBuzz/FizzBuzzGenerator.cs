@@ -2,6 +2,9 @@ namespace FizzBuzz
 {
     public class FizzBuzzGenerator
     {
+        private const string Fizz = "Fizz";
+        private const string Buzz = "Buzz";
+
         public static List<string> Generate(int count)
         {
             List<string> result = [];
@@ -10,9 +13,14 @@ namespace FizzBuzz
             {
                 result.Add(number.ToString());
                 if (count % 3 == 0)
-                    result[number - 1] = "Fizz";
+                {
+                    result[number - 1] = Fizz;
+                }
+
                 if (count == 5)
-                    result[number - 1] = "Buzz";
+                {
+                    result[number - 1] = Buzz;
+                }
             }
             
             if (count == 15)
