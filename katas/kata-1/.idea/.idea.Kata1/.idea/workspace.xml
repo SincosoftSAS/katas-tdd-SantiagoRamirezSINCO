@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45a97cc1-e048-4077-a609-5846cbf2bcc9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SantiagoRamirezSINCO"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SincosoftSAS/katas-tdd-SantiagoRamirezSINCO.git",
+    "accountId": "308e645f-fbcc-40b0-bd89-9f8477643388"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c7102cd0ffb8973777e61b1942c3fffac7e14016a511d055c3adf73ff91748/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sanan/Downloads/TDD/Katas/katas-tdd-SantiagoRamirezSINCO/katas/kata-1/tests/FizzBuzz.Tests/FizzBuzzGeneratorTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sanan/Downloads/TDD/Katas/katas-tdd-SantiagoRamirezSINCO/katas/kata-1/tests/FizzBuzz.Tests/FizzBuzzGeneratorTests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="36fDTorjduOXMa6kNqnqETCBLJY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "1e2e330e-4816-43dc-bcda-cc9d38c06156.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a97cc1-e048-4077-a609-5846cbf2bcc9" name="Changes" comment="" />
+      <created>1765388743691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765388743691</updated>
+      <workItem from="1765388745629" duration="4369000" />
+    </task>
+    <task id="LOCAL-00001" summary="🟩 Generate_WithFifteen_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765389427859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765389427859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🟥 Generate_WithTwo_ReturnsListWithOneAndTwo">
+      <option name="closed" value="true" />
+      <created>1765393495486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393495486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="🟩 Generate_WithTwo_ReturnsListWithOneAndTwo">
+      <option name="closed" value="true" />
+      <created>1765393515778</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393515778</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🟦 Generate_WithTwo_ReturnsListWithOneAndTwo">
+      <option name="closed" value="true" />
+      <created>1765393571092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393571092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="🟥 Generate_WithThree_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765393694637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393694637</updated>
+    </task>
+    <task id="LOCAL-00006" summary="🟩 Generate_WithThree_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765393771879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393771879</updated>
+    </task>
+    <task id="LOCAL-00007" summary="🟥 Generate_WithSix_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765393839334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393839334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="🟩 Generate_WithSix_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765393876193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765393876193</updated>
+    </task>
+    <task id="LOCAL-00009" summary="🟥 Generate_WithNumberDivisibleInThree_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765394036463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394036463</updated>
+    </task>
+    <task id="LOCAL-00010" summary="🟩 Generate_WithNumberDivisibleInThree_ReturnsListWithFizz">
+      <option name="closed" value="true" />
+      <created>1765394073046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394073046</updated>
+    </task>
+    <task id="LOCAL-00011" summary="🟥 Generate_WithFive_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394204349</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394204349</updated>
+    </task>
+    <task id="LOCAL-00012" summary="🟩 Generate_WithFive_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394240030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394240030</updated>
+    </task>
+    <task id="LOCAL-00013" summary="🟦 Generate_WithFive_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394362286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394362286</updated>
+    </task>
+    <task id="LOCAL-00014" summary="🟥 Generate_WithTen_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394900676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394900676</updated>
+    </task>
+    <task id="LOCAL-00015" summary="🟩 Generate_WithTen_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394938635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394938635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="🟦 Generate_WithTen_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765394951629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765394951629</updated>
+    </task>
+    <task id="LOCAL-00017" summary="🟦 Generate_WithTen_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765395123811</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395123811</updated>
+    </task>
+    <task id="LOCAL-00018" summary="🟥 Generate_WithNumberDivisibleByFive_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765395206454</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395206454</updated>
+    </task>
+    <task id="LOCAL-00019" summary="🟩 Generate_WithNumberDivisibleByFive_ReturnsListWithBuzz">
+      <option name="closed" value="true" />
+      <created>1765395252528</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395252528</updated>
+    </task>
+    <task id="LOCAL-00020" summary="🟥 Generate_Withthirty_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765395371529</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395371529</updated>
+    </task>
+    <task id="LOCAL-00021" summary="🟩 Generate_Withthirty_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765395394341</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395394341</updated>
+    </task>
+    <task id="LOCAL-00022" summary="🟥 Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765395473400</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395473400</updated>
+    </task>
+    <task id="LOCAL-00023" summary="🟩 Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765395619739</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765395619739</updated>
+    </task>
+    <task id="LOCAL-00024" summary="🟦 Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz">
+      <option name="closed" value="true" />
+      <created>1765396334795</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1765396334795</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value=" Generate_WithFifteen_ReturnsListWithFizzBuzz" />
+    <MESSAGE value=" Generate_WithTwo_ReturnsListWithOneAndTwo" />
+    <MESSAGE value=" Generate_WithTwo_ReturnsListWithOneAndTwo" />
+    <MESSAGE value=" Generate_WithTwo_ReturnsListWithOneAndTwo" />
+    <MESSAGE value=" Generate_WithThree_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithThree_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithSix_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithSix_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleInThree_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleInThree_ReturnsListWithFizz" />
+    <MESSAGE value=" Generate_WithFive_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithFive_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithFive_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithTen_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithTen_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithTen_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleByFive_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleByFive_ReturnsListWithBuzz" />
+    <MESSAGE value=" Generate_Withthirty_ReturnsListWithFizzBuzz" />
+    <MESSAGE value=" Generate_Withthirty_ReturnsListWithFizzBuzz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz" />
+    <MESSAGE value=" Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

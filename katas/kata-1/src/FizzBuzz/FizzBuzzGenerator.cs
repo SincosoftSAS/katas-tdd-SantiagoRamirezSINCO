@@ -2,6 +2,7 @@ namespace FizzBuzz
 {
     public class FizzBuzzGenerator
     {
+<<<<<<< HEAD
         private const string Fizz = "Fizz";
         private const string Buzz = "Buzz";
         private const string FizzBuzz = "FizzBuzz";
@@ -25,6 +26,13 @@ namespace FizzBuzz
             }
             
             return result;
+=======
+        public static List<string> Generate(int count)
+        {
+            // TODO: Implement FizzBuzz logic using TDD
+            // Start with the simplest case that makes the first test pass
+            throw new NotImplementedException("Implement using TDD: Red → Green → Refactor");
+>>>>>>> e28ed8faa7700dbd0f99df232351e36c37a03f67
         }
 
         private static bool IsMultipleOfFive(int count)
