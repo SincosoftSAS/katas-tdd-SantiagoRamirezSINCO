@@ -124,5 +124,21 @@ namespace FizzBuzz.Tests
             result.Should().HaveCount(30);
             result[29].Should().Be("FizzBuzz");
         }
+        
+        [Theory]
+        [InlineData(45)]
+        [InlineData(60)]
+        [InlineData(120)]
+        [InlineData(90)]
+        [InlineData(195)]
+        public void Generate_WithNumberDivisibleByFiveAndThree_ReturnsListWithFizzBuzz(int number)
+        {
+            // Arrange & Act
+            var result = FizzBuzzGenerator.Generate(number);
+            
+            // Assert
+            result.Should().HaveCount(number);
+            result[number - 1].Should().BeEquivalentTo("FizzBuzz");
+        }
     }
 }
