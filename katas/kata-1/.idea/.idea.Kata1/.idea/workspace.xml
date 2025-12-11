@@ -74,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765388743691</updated>
-      <workItem from="1765388745629" duration="4943000" />
+      <workItem from="1765388745629" duration="5503000" />
     </task>
     <task id="LOCAL-00001" summary="🟩 Generate_WithFifteen_ReturnsListWithFizzBuzz">
       <option name="closed" value="true" />
@@ -329,19 +329,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/tests/FizzBuzz.Tests/FizzBuzzGeneratorTests.cs</url>
-          <line>36</line>
-          <properties documentPath="C:\Users\sanan\Downloads\TDD\Katas\katas-tdd-SantiagoRamirezSINCO\katas\kata-1\tests\FizzBuzz.Tests\FizzBuzzGeneratorTests.cs" containingFunctionPresentation="Method 'Generate_WithTwo_ReturnsListWithOneAndTwoooo'">
-            <startOffsets>
-              <option value="968" />
-            </startOffsets>
-            <endOffsets>
-              <option value="998" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
