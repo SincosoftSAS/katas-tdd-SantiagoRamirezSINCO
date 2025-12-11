@@ -147,5 +147,19 @@ namespace Calculator.Tests
             // Assert
             result.Should().Be(4);
         }
+        
+        [Fact]
+        public void Divide_NumberByZero_ReturnsInvalidOperationException()
+        {
+            // Arrange
+            int a = 10;
+            int b = 0;
+
+            // Act
+            var act = () => _calculator.Divide(a, b);
+
+            // Assert
+            act.Should().ThrowExactly<InvalidOperationException>().WithMessage("Can't divide by zero");
+        }
     }
 }
