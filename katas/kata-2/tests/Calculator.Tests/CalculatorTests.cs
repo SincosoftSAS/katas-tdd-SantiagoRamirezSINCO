@@ -49,6 +49,20 @@ namespace Calculator.Tests
             // Assert
             result.Should().Be(6);
         }
+        
+        [Fact]
+        public void Subtract_4And3_Returns1()
+        {
+            // Arrange
+            int a = 4;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Subtract(a, b);
+
+            // Assert
+            result.Should().Be(1);
+        }
 
         // TODO: Implementa más tests usando TDD
         // Suggestions:
