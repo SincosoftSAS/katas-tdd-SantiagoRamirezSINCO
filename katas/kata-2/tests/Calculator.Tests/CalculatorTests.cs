@@ -91,5 +91,19 @@ namespace Calculator.Tests
             // Assert
             result.Should().Be(15);
         }
+        
+        [Fact]
+        public void Multiply_5And2_Returns10()
+        {
+            // Arrange
+            int a = 5;
+            int b = 2;
+
+            // Act
+            int result = _calculator.Multiply(a, b);
+
+            // Assert
+            result.Should().Be(10);
+        }
     }
 }
