@@ -14,10 +14,7 @@ namespace Calculator
 
         public int Multiply(int a, int b)
         {
-            if (a == 5)
-                return 15;
-
-            return 8;
+            return a * b;
         }
 
         public int Divide(int a, int b)
