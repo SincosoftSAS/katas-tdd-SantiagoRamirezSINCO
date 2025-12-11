@@ -64,10 +64,18 @@ namespace Calculator.Tests
             result.Should().Be(1);
         }
 
-        // TODO: Implementa más tests usando TDD
-        // Suggestions:
-        // - Test multiply with positive numbers
-        // - Test divide with positive numbers  
-        // - Test edge cases (division by zero, negative numbers, etc.)
+        [Fact]
+        public void Multiply_4And2_Returns8()
+        {
+            // Arrange
+            int a = 4;
+            int b = 2;
+
+            // Act
+            int result = _calculator.Multiply(a, b);
+
+            // Assert
+            result.Should().Be(8);
+        }
     }
 }
