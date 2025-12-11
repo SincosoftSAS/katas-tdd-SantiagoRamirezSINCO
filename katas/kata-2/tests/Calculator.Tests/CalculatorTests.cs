@@ -105,5 +105,19 @@ namespace Calculator.Tests
             // Assert
             result.Should().Be(10);
         }
+        
+        [Fact]
+        public void Divide_10In2_Returns5()
+        {
+            // Arrange
+            int a = 10;
+            int b = 2;
+
+            // Act
+            int result = _calculator.Divide(a, b);
+
+            // Assert
+            result.Should().Be(5);
+        }
     }
 }
