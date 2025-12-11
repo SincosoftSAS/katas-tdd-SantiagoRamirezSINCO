@@ -119,5 +119,19 @@ namespace Calculator.Tests
             // Assert
             result.Should().Be(5);
         }
+        
+        [Fact]
+        public void Divide_9In3_Returns3()
+        {
+            // Arrange
+            int a = 9;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Divide(a, b);
+
+            // Assert
+            result.Should().Be(3);
+        }
     }
 }
