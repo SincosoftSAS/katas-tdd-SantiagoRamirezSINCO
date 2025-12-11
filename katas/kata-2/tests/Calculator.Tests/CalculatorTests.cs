@@ -6,6 +6,20 @@ namespace Calculator.Tests
     public class CalculatorTests
     {
         private readonly Calculator _calculator = new();
+        
+        [Fact]
+        public void Add_2And3_Returns5()
+        {
+            // Arrange
+            int a = 2;
+            int b = 3;
+
+            // Act
+            int result = _calculator.Add(a, b);
+
+            // Assert
+            result.Should().Be(5);
+        }
 
         [Fact]
         public void Add_TwoPositiveNumbers_ReturnsSum()
@@ -21,19 +35,6 @@ namespace Calculator.Tests
             result.Should().Be(8);
         }
         
-        [Fact]
-        public void Add_2And3_Returns5()
-        {
-            // Arrange
-            int a = 2;
-            int b = 3;
-
-            // Act
-            int result = _calculator.Add(a, b);
-
-            // Assert
-            result.Should().Be(5);
-        }
 
         [Fact]
         public void Subtract_TwoNumbers_ReturnsDifference()
